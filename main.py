@@ -30,7 +30,6 @@ K_G = Client(
 def button():
         [Button.url('Məni qrupa əlavə et➕', 'https://t.me/ZeetaDcBot?startgroup=a')],
 	[Button.url('Sahib👨🏻‍💻', 'https://t.me/ZeetaOwner')],
-	return InlineKeyboardMarkup(BUTTON)
 
 # Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
 @K_G.on_message(filters.command("start"))
