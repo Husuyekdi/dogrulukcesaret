@@ -29,7 +29,7 @@ K_G = Client(
 # Start Buttonu İcin Def Oluşturalım :)
 def button():
         [Button.url('Məni qrupa əlavə et➕', 'https://t.me/ZeetaDcBot?startgroup=a')],
-	BUTTON=[[InlineKeyboardButton(text="👨🏻‍💻 Sahibim ",url="t.me/ZeetaOwner")]
+	BUTTON=[[InlineKeyboardButton(text="👨🏻‍💻 Sahibim ",url="t.me/ZeetaOwner")]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
